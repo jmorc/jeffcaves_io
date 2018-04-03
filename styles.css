@@ -1,0 +1,275 @@
+.nav {
+  -webkit-animation: links-appear 1.3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: links-appear 1.3s; /* Firefox < 16 */
+      -ms-animation: links-appear 1.3s; /* Internet Explorer */
+       -o-animation: links-appear 1.3s; /* Opera < 12.1 */
+          animation: links-appear 1.3s;
+}
+
+.nav > li > a {
+  color: white;
+  padding: 0px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+}
+
+.nav-bar {
+  margin: 10px 10px 0px 0px;
+  height: 30px;
+  width: 95%;
+  text-align: right;
+}
+
+.nav-bar > a {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-button {
+  margin-left: 20px;
+}
+
+li > a > img {
+   -webkit-animation: fade-in 1.6s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fade-in 1.6s; /* Firefox < 16 */
+      -ms-animation: fade-in 1.6s; /* Internet Explorer */
+       -o-animation: fade-in 1.6s; /* Opera < 12.1 */
+          animation: fade-in 1.6s;
+} 
+
+body {
+  margin: 0px;
+  min-width: 1200px;
+  background: url(chalkboard.jpg);
+  background-size: 600px 623px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  text-align: center;
+  color: white;
+}
+
+#contact-info {
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.biomedical-title {
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.biomedical-text {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 200px;
+}
+
+.biomedical-image {
+  margin: 30px 10px 30px 10px;
+}
+
+.biomedical-image-description {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+body.biomedical-container {
+  background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.4), 
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(chalkboard.jpg);
+  background-size: 600px 623px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery .gallery2 {
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.gallery img {
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+  -webkit-transform: scale(.95, 1.05);
+  -moz-transform: scale(.95, 1.05);
+  -o-transform: scale(.95, 1.05);
+  -ms-transform: scale(.95, 1.05);
+  transform: scale(.95, 1.05);
+}
+
+.gallery .gallery2:hover {
+  -webkit-transform: scale(1.05, 0.95);
+  -moz-transform: scale(1.05, 0.95);
+  -o-transform: scale(1.05, 0.95);
+  -ms-transform: scale(1.05, 0.95);
+  transform: scale(1.05, 0.95);
+}
+
+.gallery-label {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 75px;
+  width: 250px;
+  height: 100px;
+  color: #FFA500;
+  padding-top: 6px;
+  background-color: rgba(0,0,0, 0.8);
+  font-size: 16px;
+}
+
+.gallery:hover .gallery-label {
+  display: block;
+}
+
+.references-title {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.references > li {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.references > li > a {
+  color: #2222cc;
+}
+
+.other-references {
+  color: #2222cc;
+}
+
+.biz-card {
+  /*font-family: Source Sans Pro, sans-serif;*/
+  font-family: 'Piedra', cursive;
+  line-height: 3em;
+  padding-top: 5em;
+  padding-bottom: 11em;
+  height: 900px;
+}
+
+#jeff-caves {        
+  font-size: 9em;
+  font-weight: 900;
+  line-height: 1.1em;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+}
+
+h1, .web-dev {
+  font-family: 'Piedra', cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3em;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0em;
+  margin-top: 0.3em;
+}
+
+.more-info {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.for-hire {
+  margin-top: -20px;
+  -webkit-animation: drop-webdev 1.3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: drop-webdev 1.3s; /* Firefox < 16 */
+      -ms-animation: drop-webdev 1.3s; /* Internet Explorer */
+       -o-animation: drop-webdev 1.3s; /* Opera < 12.1 */
+          animation: drop-webdev 1.3s;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  padding: 0px;
+}
+
+li {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  font-size: 2em;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes drop-webdev {
+    0%   { margin-top: -90px; }
+    50%  { margin-top: -90px; }
+    100% { margin-top: -20px; }
+} 
+
+/* Standard syntax */
+@keyframes drop-webdev {
+  0%   { margin-top: -90px; }
+  50%  { margin-top: -90px; }
+  100% { margin-top: -20px; }
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes links-appear {
+  0%   { opacity: 0; }
+  70%  { opacity: 0; }
+  100% { opacity: 1; }
+} 
+
+/* Standard syntax */
+@keyframes links-appear {
+  0%   { opacity: 0; }
+  70%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fade-in {
+    0%   { opacity: 0; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+} 
+
+/* Standard syntax */
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
