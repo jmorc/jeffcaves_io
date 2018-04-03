@@ -4,15 +4,21 @@
       -ms-animation: links-appear 1.3s; /* Internet Explorer */
        -o-animation: links-appear 1.3s; /* Opera < 12.1 */
           animation: links-appear 1.3s;
+  margin-top: 20px 
 }
 
-.nav > li > a {
+.jumbotron-div > div {
+  margin-top: 20px;
+  font-size: 20px
+}
+
+.nav > div > a {
   color: white;
   padding: 0px;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
+.nav > div > a:hover,
+.nav > div > a:focus {
   background-color: transparent;
 }
 
@@ -33,7 +39,7 @@
   margin-left: 20px;
 }
 
-li > a > img {
+div > a > img {
    -webkit-animation: fade-in 1.6s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fade-in 1.6s; /* Firefox < 16 */
       -ms-animation: fade-in 1.6s; /* Internet Explorer */
@@ -42,8 +48,6 @@ li > a > img {
 } 
 
 body {
-  margin: 0px;
-  min-width: 1200px;
   background: url(chalkboard.jpg);
   background-size: 600px 623px;
   background-attachment: fixed;
@@ -54,8 +58,9 @@ body {
 
 #contact-info {
   display: none;
+  margin-top: 15px;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 14px;
 }
 
 .biomedical-title {
@@ -96,6 +101,10 @@ body.biomedical-container {
 
 .container {
   margin-bottom: 100px;
+}
+
+.jumbo-badge {
+  margin: 10px 10px;
 }
 
 .gallery {
@@ -184,6 +193,10 @@ body.biomedical-container {
   height: 900px;
 }
 
+.jumbotron {
+  background: url(chalkboard.jpg);
+}
+
 #jeff-caves {        
   font-size: 9em;
   font-weight: 900;
@@ -249,9 +262,9 @@ li {
 
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes links-appear {
-  0%   { opacity: 0; }
-  70%  { opacity: 0; }
-  100% { opacity: 1; }
+  0%   { opacity: 0; height: 0px }
+  70%  { opacity: 0; height: 0px }
+  100% { opacity: 1; height: auto}
 } 
 
 /* Standard syntax */
