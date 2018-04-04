@@ -7,6 +7,10 @@
   margin-top: 20px 
 }
 
+.jumbotron {
+  height: 800px;
+}
+
 .jumbotron-div > div {
   margin-top: 20px;
   font-size: 20px
@@ -37,6 +41,19 @@
 
 .nav-button {
   margin-left: 20px;
+}
+
+.home-nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.glyphicon {
+  color: gray;
 }
 
 div > a > img {
@@ -109,6 +126,10 @@ body.biomedical-container {
 
 .gallery {
   margin-top: 30px;
+}
+
+.gallery2 {
+  padding: 0px 30px;
 }
 
 .gallery .gallery2 {
@@ -210,6 +231,17 @@ h1, .web-dev {
   font-weight: 400;
   font-style: italic;
   font-size: 3em;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0em;
+  margin-top: 0.3em;
+}
+
+h2 {
+  font-family: 'Piedra', cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.5em;
   vertical-align: middle;
   display: inline-block;
   margin-bottom: 0em;
